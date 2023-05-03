@@ -102,3 +102,14 @@ margin: 0;
 padding: 50px;
 }
 
+.sub-nepali {
+	display: none;
+}
+
+.nav_links ul li:hover .sub-nepali{
+	display: block;
+	position: absolute;
+	background: red;
+	margin-top: 15px;
+	margin-left: -15px;
+}
